@@ -1,0 +1,213 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, spanish]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{setspace}
+
+% ===== CONFIGURACIÓN DE COLORES =====
+\definecolor{accent}{RGB}{40, 100, 200}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+    citecolor=accent
+}
+
+% ===== FORMATO DE SECCIONES =====
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% ===== ENCABEZADO =====
+\begin{document}
+\begin{center}
+    {\Huge \textbf{Nicolás Zapata Álzate}} \\[6pt]
+    {\large \textbf{Ingeniero informático | Desarrollador de software}} \\[2pt]
+    {\footnotesize 12/03/1999} \\[12pt]
+\end{center}
+
+% ===== OBJETIVO =====
+\section*{OBJETIVO}
+Crear soluciones de software para mejorar y hacer más fácil el uso cotidiano, y contribuir a la industria del software.
+
+% ===== COLUMNAS: CONTACTO, EDUCACIÓN, IDIOMAS =====
+\begin{multicols}{2}
+
+  \subsection*{CONTACTO}
+
+  \begin{itemize}[leftmargin=*, nosep]
+      \item \faPhone\ \textbf{Teléfono:} (+57) 3128856774
+      \item \faEnvelope\ \textbf{Correo:} \href{mailto:works_nicolasz@outlook.com}{works\_nicolasz@outlook.com}
+      \item \faGlobe\ \textbf{Página:} \href{https://nicolas-zapata-portfolio.vercel.app/}{nicolas-zapata-portfolio.vercel.app}
+      \item \faLinkedin\ \textbf{LinkedIn:} \href{https://www.linkedin.com/in/nicolas-zapata-al/}{linkedin.com/in/nicolas-zapata-al}
+      \item \faGithub\ \textbf{GitHub:} \href{https://github.com/niczapata}{github.com/niczapata}
+      \item \faGitlab\ \textbf{GitLab:} \href{https://gitlab.com/NicolasZapata}{gitlab.com/NicolasZapata}
+  \end{itemize}
+
+  \subsection*{IDIOMAS}
+  \begin{itemize}[leftmargin=*, nosep]
+      \item \textbf{Español:} Nativo
+      \item \textbf{Inglés:} B2
+  \end{itemize}
+
+  \columnbreak
+
+  \subsection*{EDUCACIÓN}
+  \textbf{Fundación Universitaria Internacional de La Rioja (UNIR).} \\
+  \textbf{Pregrado en Ingeniería Informática.} \\
+  \textit{Conclusión: 08/06/2023.}
+
+  \textbf{Universidad Autónoma de Manizales.} \\
+  \textbf{Diplomado de inglés.} \\
+  \textit{Conclusión: En curso actualmente.}
+
+
+\end{multicols}
+
+% ===== EXPERIENCIA LABORAL =====
+\section*{EXPERIENCIA}
+\textbf{Desarrollador – Grupo Quanam Colombia SAS} \hfill \textit{Noviembre 2023 – Mayo 2024} \\
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Desarrollo de Módulos para Soluciones Empresariales con Odoo16 utilizando Python, XML y Javascript.
+    \item \textbf{Migración de Nómina:} Actualización de módulos de nómina (gestión de vacaciones, contratos, procesamiento, préstamos, novedades, afiliaciones) de Odoo 13/14 a Odoo 16.
+    \item \textbf{Módulo de caja menor:} Diseño e implementación de un sistema robusto para seguimiento de gastos, reembolsos y reportes, reduciendo errores manuales.
+    \item \textbf{Módulo de Código de Barras para Envíos:} Desarrollo de un sistema integrado con inventario y logística para facilitar el manejo de productos.
+    \item \textbf{Recepción de Pesaje para Cliente Agrícola:} Solución automatizada para medición de peso y captura de datos, mejorando la visibilidad de la cadena de suministro.
+    \item \textbf{Sistema de informes:} Creación de herramientas y paneles de control dinámicos para varias empresas, proporcionando información en tiempo real.
+    \item Soporte auxiliar para módulo de facturación y nómina electrónica para la DIAN mediante un Proveedor de API (Dataico).
+\end{itemize}
+
+\textbf{Auxiliar de TIC – Conviventia} \hfill \textit{Febrero 2023 – Abril 2023} \\
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Lideré la creación de un panel integral en Google Sheets (con datos de JotForm) para categorizar participantes (Practicantes, Voluntarios, Extranjeros) de la temporada 2023.
+    \item Identifiqué áreas de automatización dentro de la fundación y propuse mejoras para agilizar operaciones.
+\end{itemize}
+
+\textbf{Mobile Developer – Vibbo} \hfill \textit{Abril 2021 – Mayo 2021} \\
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Contribuí al desarrollo de una aplicación móvil con Flutter.
+    \item Sincronicé datos mediante API REST desde una base de datos PostgreSQL con autenticación en FastAPI.
+    \item Integré fase inicial de función de videoconferencia y autenticación de usuarios con Firebase.
+\end{itemize}
+
+\textbf{Investigador en Inteligencia Artificial – UNIR} \hfill \textit{Marzo 2020 – Diciembre 2022} \\
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Investigación en modelos de Machine Learning, Deep Learning y Aprendizaje Supervisado.
+    \item Proyectos: sensor para cuidado de tilapias, robots con detección de imágenes, y algoritmos estadísticos para estrategias de venta.
+\end{itemize}
+
+\textbf{Mobile Developer – Digital Brainly Solutions} \hfill \textit{Enero 2021 – Abril 2021} \\
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Desarrollo de la plantilla del chat para la aplicación Carry-App con React Native.
+    \item Implementación del Front-end del chat para un proyecto de taxis.
+    \item Creación de una Landing Page utilizando Ionic y Cordova.
+\end{itemize}
+
+% ===== CONOCIMIENTOS =====
+\section*{CONOCIMIENTOS}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item \textbf{Lenguajes de Programación:} Java, Kotlin, C, C++, C\#, JavaScript, Python, Lua, SQL, Dart, HTML, CSS, R, LaTeX.
+    \item \textbf{Herramientas de desarrollo:} DeepSeek, Cline, Android Studio Arduino, Unity, Windsurf, Cursor, Visual Studio Code, IntelliJ IDEA, PyCharm, NeoVim, RStudio.
+    \item \textbf{Frameworks y librerías:} React, Odoo, Vite, Next.js, Node.js, Express.
+    \item \textbf{Bases de datos:} MySQL, PostgreSQL, SQLite, MongoDB, Firebase.
+    \item \textbf{Desarrollo Móvil:} React Native, Flutter, Ionic, Android Studio.
+    \item \textbf{Otras Capacidades:} Notion, Trello, Jira, Figma, Git, GitHub, Docker, GitLab, BitBucket, Microservicios, Azure.
+    \item \textbf{Sistemas Operativos:} Arch Linux, Ubuntu, Windows.
+    \item \textbf{Inteligencia Artificial:} Pandas, Numpy, Scikit-learn, Tensorflow, PyTorch, OpenCV, Keras, Matplotlib.
+\end{itemize}
+
+% ===== APTITUDES Y HABILIDADES =====
+\section*{APTITUDES Y HABILIDADES}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+    \item Puntual y comprometido con los plazos de trabajo.
+    \item Pensamiento recursivo para encontrar soluciones alternativas a problemas.
+    \item Flexibilidad para adaptar estrategias de desarrollo cuando es necesario.
+    \item Innovación constante e integración de nuevas tecnologías y estándares.
+    \item Pasión por probar nuevas tecnologías y trabajar con herramientas emergentes.
+    \item Alta adaptabilidad a entornos Windows y Linux, y a diferentes metodologías de software.
+    \item Productividad mejorada mediante el uso de herramientas como Vim y asistentes de IA (Codeium, Continue) para autocompletado de código.
+\end{itemize}
+
+% ===== CURSOS =====
+\section*{CURSOS}
+\begin{itemize}[leftmargin=*, nosep]
+    \item Google AI Essentials – Coursera
+    \item Introduction to Microsoft Azure Cloud Services – Coursera
+    \item Semillero de Machine Learning – UNIR
+    \item Semillero Quinoa – UNIR
+    \item Fundamentos de Soporte IT – LinkedIn
+    \item Carrera de Java – Platzi
+    \item Curso fundamentos de JavaScript – Platzi
+\end{itemize}
+
+% ===== PROYECTOS / PORTAFOLIO =====
+\section*{PROYECTOS / PORTAFOLIO}
+\textbf{Algoritmo de clasificación de imágenes en granos de café} \\
+Modelo entrenado con Teachable Machine para seleccionar frutos de café rojos de los verdes, basado en muestras recolectadas.
+
+\textbf{CatBreed App} \\
+App desarrollada con React Native que conecta con una API para desplegar una lista de gatos con imagen, nombre, raza y descripción. \\
+\textit{Repositorio:} \href{https://github.com/niczapata/CatBreedApp}{github.com/niczapata/CatBreedApp}
+
+\textbf{Todo React Vite} \\
+Aplicación de lista de tareas desarrollada con React y Vite. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/TodoReactVite}{github.com/NicolasZapata/TodoReactVite}
+
+\textbf{Jetpack Compose Application} \\
+Aplicación móvil nativa para Android que demuestra la metodología Jetpack Compose en Kotlin. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/Jetpack-Compose-Application}{github.com/NicolasZapata/Jetpack-Compose-Application}
+
+\textbf{Fazt Web's Node.js Simple Page} \\
+Página web desarrollada con Node.js. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/FastWeb-Nodejs-Practice}{github.com/NicolasZapata/FastWeb-Nodejs-Practice}
+
+\textbf{Classification Tree UNIR} \\
+Árbol de clasificación realizado en Python con Sklearn, pandas, numpy y statmodels.api sobre datos extraídos de un archivo CSV. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/Classification_Tree_UNIR}{github.com/NicolasZapata/Classification\_Tree\_UNIR}
+
+\textbf{OpenCV – UNIR} \\
+Laboratorio de manipulación de imágenes con Python y OpenCV. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/OpenCV-Unir}{github.com/NicolasZapata/OpenCV-Unir}
+
+\textbf{Data Mining Unir} \\
+Tratamiento de datos con Python y DTale. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/Data_Mining_Unir-1}{github.com/NicolasZapata/Data\_Mining\_Unir-1}
+
+\textbf{Fashion Deep Learning | Semillero Quinoa | UNIR} \\
+Entrenamiento de un dataset de ropa con TensorFlow, Keras, NumPy y Matplotlib, utilizando valores flotantes. \\
+\textit{Repositorio:} \href{https://github.com/NicolasZapata/Fashion-Deep-Learning--Semillero-Quinoa}{github.com/NicolasZapata/Fashion-Deep-Learning}
+
+% ===== DATOS PERSONALES =====
+\section*{DATOS PERSONALES}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Documento de identidad:} 1053873921 de Manizales
+    \item \textbf{Lugar y fecha de nacimiento:} 12 de marzo de 1999 en Manizales, Caldas, Colombia
+    \item \textbf{Estado civil:} Soltero
+    \item \textbf{Dirección:} Carrera 1 con calle 11, N° 11-41, Manizales, Caldas, Colombia
+\end{itemize}
+
+% ===== REFERENCIAS PERSONALES =====
+\section*{REFERENCIAS PERSONALES}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Jhon Jairo Grisales Becerra} \\ Coordinador técnico – ARAGON CONSTRUCCIONES Y MINERIA \\ Teléfono: +57 300 372 2372
+    \item \textbf{Viviana María Zapata Álzate} \\ Profesional Social – INTERPARQUE TECNOLOGICO \\ Teléfono: +57 312 896 5368
+    \item \textbf{Leonardo Garavito} \\ Desarrollador de Negocios y CEO – GRUPO QUANAM COLOMBIA \\ Teléfono: +57 311 2308556
+    \item \textbf{Jhon Carlos Colorado Angulo} \\ Desarrollador Front-End – ARIADNA COMMUNICATIONS GROUP \\ Teléfono: +57 3205336397
+\end{itemize}
+
+% ===== ESPACIO PARA FOTO (OPCIONAL) =====
+% Descomenta las siguientes líneas y agrega tu imagen si lo deseas:
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=3cm]{tu_foto.jpg}
+%     \label{fig:foto}
+% \end{figure}
+
+\end{document}
