@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  9 JAN 2026 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,38 +482,36 @@ e
 ))
 Couldn't patch \ttl@straight@ii
 Couldn't patch \ttl@straight@ii
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 46.
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 46.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 47.
 
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-Overfull \hbox (9.41917pt too wide) in paragraph at lines 48--49
-[]\U/fontawesomefree1/solid/n/10.95 € \OT1/cmr/bx/n/10.95 P^^Sagi-na: [][]\OT1/
-cmr/m/n/10.95 nicolas-zapata-portfolio.vercel.app[][] 
- []
-
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 49.
+ input line 50.
+
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> n
 ot available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 49.
+n input line 50.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
+ input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-[]\U/fontawesomebrands0/regular/n/10.95 ï \OT1/cmr/bx/n/10.95 Lin-ke-dIn: [][]\
-OT1/cmr/m/n/10.95 linkedin.com/in/nicolas-
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10.95> n
+ot available
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 53.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -522,20 +520,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fon
-tawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5b
-rands0.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fon
+tawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5b
+rands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
@@ -557,11 +556,11 @@ Package rerunfilecheck Info: File `CVNicolasZapataAlzate.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14909 strings out of 475109
- 254848 string characters out of 5765326
+ 14928 strings out of 475109
+ 255449 string characters out of 5765326
  670412 words of memory out of 5000000
- 37748 multiletter control sequences out of 15000+600000
- 562579 words of font info for 48 fonts, out of 8000000 for 9000
+ 37763 multiletter control sequences out of 15000+600000
+ 562541 words of font info for 48 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,5n,79p,1150b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/nicolas/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk
@@ -570,11 +569,10 @@ lar.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free
 -Solid.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb>
-Output written on build/CVNicolasZapataAlzate.pdf (4 pages, 129640 bytes).
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on build/CVNicolasZapataAlzate.pdf (4 pages, 144114 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
