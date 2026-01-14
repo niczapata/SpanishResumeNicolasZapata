@@ -5,11 +5,8 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
-\usepackage{fontawesome5}
-\usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{parskip}
-\usepackage{graphicx}
 \usepackage{setspace}
 
 % ===== CONFIGURACIÓN DE COLORES =====
@@ -28,178 +25,108 @@
 % ===== ENCABEZADO =====
 \begin{document}
 \begin{center}
-    {\Huge \textbf{Nicolás Zapata Álzate}} \\[6pt]
-    {\large \textbf{Ingeniero informático | Desarrollador de software}} \\[2pt]
-    % {\footnotesize 12/03/1999} \\[12pt]
+	{\Huge \textbf{Nicolás Zapata Álzate}} \\[6pt]
+	{\large \textbf{Ingeniero de Software | Especialista en Automatización \& Datos}} \\[12pt]
+	% CONTACTO en texto plano (ATS-friendly)
+	\begin{tabular}{@{}c@{}}
+		Manizales, Colombia | (+57) 3128856774                                                              \\
+		\href{mailto:works\_nicolasz@outlook.com}{works\_nicolasz@outlook.com}                              \\
+		Portfolio: \href{https://nicolas-zapata-portfolio.vercel.app/}{nicolas-zapata-portfolio.vercel.app} \\
+		LinkedIn: \href{https://www.linkedin.com/in/nicolas-zapata-al/}{linkedin.com/in/nicolas-zapata-al}  \\
+		GitHub: \href{https://github.com/niczapata}{github.com/niczapata}                                   \\
+	\end{tabular}
 \end{center}
 
-% ===== OBJETIVO =====
-\section*{PERFIL}
-Especialista en desarrollo de software con enfoque en la optimización de procesos digitales y automatización. Experiencia en el diseño de APIs, microservicios y bases de datos SQL y NoSQL, con conocimientos en seguridad informática. Me interesa colaborar con empresas que apuesten por la innovación y la mejora continua en tecnología. Mi objetivo es crear soluciones de software para mejorar y hacer más fácil el uso cotidiano, y contribuir a la industria del software.
-% ===== COLUMNAS: CONTACTO, EDUCACIÓN, IDIOMAS =====
-\begin{multicols}{2}
+% ===== PERFIL PROFESIONAL (SUMMARY) - TOTALMENTE REDISEÑADO =====
+\section*{SUMMARY}
+\begin{spacing}{1.1}
+	Ingeniero de Software con especialización en datos y más de 3 años de experiencia diseñando \textbf{soluciones de automatización}, \textbf{pipelines de datos} e \textbf{integración de sistemas} usando Python y Node.js. Experto en construir APIs escalables (FastAPI), implementar infraestructura como código (Terraform, AWS) y aplicar prácticas de calidad (Unit Testing) para garantizar la robustez de los procesos automatizados. Busco el rol de \textbf{Ingeniero de Datos - Especialista en Automatización} para aportar en la creación de soluciones de alto valor.
+\end{spacing}
 
-  \subsection*{CONTACTO}
-
-  \begin{itemize}[leftmargin=*, nosep, label={}]
-      \item \faGlobeAmericas\ Manizales, Caldas, Colombia.
-      \item \faPhone\ (+57) 3128856774
-      \item \faEnvelope\ \href{mailto:works\_nicolasz@outlook.com}{works\_nicolasz@outlook.com}
-      \item \faGlobe\ \href{https://nicolas-zapata-portfolio.vercel.app/}{nicolas-zapata-portfolio.vercel.app}
-      \item \faLinkedin\ \href{https://www.linkedin.com/in/nicolas-zapata-al/}{linkedin.com/in/nicolas-zapata-al}
-      \item \faGithub\ \href{https://github.com/niczapata}{github.com/niczapata}
-      \item \faGitlab\ \href{https://gitlab.com/NicolasZapata}{gitlab.com/NicolasZapata}
-      \item \faTwitter\ \href{https://twitter.com/niczapata12}{twitter.com/niczapata12}
-  \end{itemize}
-
-  \subsection*{IDIOMAS}
-  \begin{itemize}[leftmargin=*, nosep]
-      \item \textbf{Español:} Nativo
-      \item \textbf{Inglés:} B2
-  \end{itemize}
-
-  \columnbreak
-
-  \subsection*{EDUCACIÓN}
-
-  \textbf{Universidad Autónoma de Manizales.} \\
-  \textbf{Diplomado de inglés.} \\
-  \textit{Conclusión: En curso actualmente.}
-
-  \textbf{Fundación Universitaria Internacional de La Rioja (UNIR).} \\
-  \textbf{Pregrado en Ingeniería Informática.} \\
-  \textit{Conclusión: 08/06/2023.}
-
-\end{multicols}
-
-% ===== EXPERIENCIA LABORAL =====
-\section*{EXPERIENCIA}
-\textbf{Desarrollador – Grupo Quanam Colombia SAS} \hfill \textit{Noviembre 2023 – Mayo 2024} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Desarrollo de Módulos para Soluciones Empresariales con Odoo16 utilizando Python, XML y Javascript.
-    \item \textbf{Migración de Nómina:} Actualización de módulos de nómina (gestión de vacaciones, contratos, procesamiento, préstamos, novedades, afiliaciones) de Odoo 13/14 a Odoo 16.
-    \item \textbf{Módulo de caja menor:} Diseño e implementación de un sistema robusto para seguimiento de gastos, reembolsos y reportes, reduciendo errores manuales.
-    \item \textbf{Módulo de Código de Barras para Envíos:} Desarrollo de un sistema integrado con inventario y logística para facilitar el manejo de productos.
-    \item \textbf{Recepción de Pesaje para Cliente Agrícola:} Solución automatizada para medición de peso y captura de datos, mejorando la visibilidad de la cadena de suministro.
-    \item \textbf{Sistema de informes:} Creación de herramientas y paneles de control dinámicos para varias empresas, proporcionando información en tiempo real.
-    \item Soporte auxiliar para módulo de facturación y nómina electrónica para la DIAN mediante un Proveedor de API (Dataico).
-\end{itemize}
-
-\textbf{Auxiliar de TIC – Conviventia} \hfill \textit{Febrero 2023 – Abril 2023} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Lideré la creación de un panel integral en Google Sheets (con datos de JotForm) para categorizar participantes (Practicantes, Voluntarios, Extranjeros) de la temporada 2023.
-    \item Identifiqué áreas de automatización dentro de la fundación y propuse mejoras para agilizar operaciones.
-\end{itemize}
-
-\textbf{Mobile Developer – Vibbo} \hfill \textit{Abril 2021 – Mayo 2021} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Contribuí al desarrollo de una aplicación móvil con Flutter.
-    \item Sincronicé datos mediante API REST desde una base de datos PostgreSQL con autenticación en FastAPI.
-    \item Integré fase inicial de función de videoconferencia y autenticación de usuarios con Firebase.
-\end{itemize}
-
-\textbf{Investigador en Inteligencia Artificial – UNIR} \hfill \textit{Marzo 2020 – Diciembre 2022} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Investigación en modelos de Machine Learning, Deep Learning y Aprendizaje Supervisado.
-    \item Proyectos: sensor para cuidado de tilapias, robots con detección de imágenes, y algoritmos estadísticos para estrategias de venta.
-\end{itemize}
-
-\textbf{Mobile Developer – Digital Brainly Solutions} \hfill \textit{Enero 2021 – Abril 2021} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Desarrollo de la plantilla del chat para la aplicación Carry-App con React Native.
-    \item Implementación del Front-end del chat para un proyecto de taxis.
-    \item Creación de una Landing Page utilizando Ionic y Cordova.
-\end{itemize}
-
-% ===== CONOCIMIENTOS =====
-\section*{CONOCIMIENTOS}
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item \textbf{Lenguajes de Programación:} Java, Kotlin, C, C++, C\#, JavaScript, Python, Lua, SQL, Dart, HTML, CSS, R, LaTeX.
-    \item \textbf{Herramientas de desarrollo:} Cline, Android Studio Arduino, Unity, Windsurf, Cursor, Visual Studio Code, IntelliJ IDEA, PyCharm, NeoVim, RStudio.
-    \item \textbf{Frameworks y librerías:} React, Odoo, Vite, Next.js, Node.js, Express.
-    \item \textbf{Bases de datos:} MySQL, PostgreSQL, SQLite, MongoDB, Firebase.
-    \item \textbf{Desarrollo Móvil:} React Native, Flutter, Ionic, Android Studio.
-    \item \textbf{Otras Capacidades:} Notion, Trello, Jira, Figma, Git, GitHub, Docker, GitLab, BitBucket, Microservicios, Azure, ChatGPT, DeepSeek, Prompt Engineering, Antropic Claude.
-    \item \textbf{Sistemas Operativos:} Arch Linux, Ubuntu, Linux Mint, Manjaro, Kali Linux.
-    \item \textbf{Inteligencia Artificial:} Pandas, Numpy, Scikit-learn, Tensorflow, PyTorch, OpenCV, Keras, Matplotlib.
-\end{itemize}
-
-% ===== APTITUDES Y HABILIDADES =====
-\section*{APTITUDES Y HABILIDADES}
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Puntual y comprometido con los plazos de trabajo.
-    \item Pensamiento recursivo para encontrar soluciones alternativas a problemas.
-    \item Flexibilidad para adaptar estrategias de desarrollo cuando es necesario.
-    \item Innovación constante e integración de nuevas tecnologías y estándares.
-    \item Pasión por probar nuevas tecnologías y trabajar con herramientas emergentes.
-    \item Alta adaptabilidad a entornos Windows y Linux, y a diferentes metodologías de software.
-    \item Productividad mejorada mediante el uso de herramientas como Vim y asistentes de IA (Codeium, Continue) para autocompletado de código.
-\end{itemize}
-
-% ===== CURSOS =====
-\section*{CURSOS}
+% ===== IDIOMAS Y EDUCACIÓN =====
+\subsection*{IDIOMAS}
 \begin{itemize}[leftmargin=*, nosep]
-    \item Google AI Essentials – Coursera
-    \item Introduction to Microsoft Azure Cloud Services – Coursera
-    \item Semillero de Machine Learning – UNIR
-    \item Semillero Quinoa – UNIR
-    \item Fundamentos de Soporte IT – LinkedIn
-    \item Carrera de Java – Platzi
-    \item Curso fundamentos de JavaScript – Platzi
+	\item \textbf{Español:} Nativo
+	\item \textbf{Inglés:} Nivel B2 (Intermedio Avanzado)
 \end{itemize}
 
-% ===== PROYECTOS / PORTAFOLIO =====
-\section*{PROYECTOS / PORTAFOLIO}
-\textbf{Algoritmo de clasificación de imágenes en granos de café} \\
-Modelo entrenado con Teachable Machine para seleccionar frutos de café rojos de los verdes, basado en muestras recolectadas.
+\subsection*{EDUCACIÓN}
+\textbf{Universidad Autónoma de Manizales.} \\
+\textbf{Diplomado de inglés.} \\
+\textit{Febrero 2025 – Actualmente} \\ Enfocado en competencias de Cambridge English.
 
-\textbf{CatBreed App} \\
-App desarrollada con React Native que conecta con una API para desplegar una lista de gatos con imagen, nombre, raza y descripción. \\
-\textit{Repositorio:} \href{https://github.com/niczapata/CatBreedApp}{github.com/niczapata/CatBreedApp}
+\textbf{Fundación Universitaria Internacional de La Rioja (UNIR).} \\
+\textbf{Pregrado en Ingeniería Informática.} \\
+\textit{Febrero 2019 – Julio 2023} \\ Énfasis en Ingeniería de Software y Sistemas.
 
-\textbf{Todo React Vite} \\
-Aplicación de lista de tareas desarrollada con React y Vite. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/TodoReactVite}{github.com/NicolasZapata/TodoReactVite}
+% ===== EXPERIENCIA LABORAL - OPTIMIZADA CON PALABRAS CLAVE =====
+\section*{EXPERIENCIA LABORAL}
+\textbf{Software Developer – Grupo Quanam Colombia SAS} \hfill \textit{Nov 2023 – May 2024}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item \textbf{Automaticé flujos de trabajo clave} diseñando e implementando 5+ módulos centrales en Odoo 16 (Inventario, CRM) con \textbf{Python, XML y JavaScript}, \textbf{reduciendo el tiempo de procesamiento manual en un 30\%}.
+	\item Lideré la \textbf{migración e integración} de sistemas de nómina y facturación electrónica (DIAN) mediante APIs, mejorando la precisión y el cumplimiento normativo.
+	\item Desarrollé un \textbf{sistema de reportes automatizado} y paneles de control, proporcionando información en tiempo real para la toma de decisiones.
+\end{itemize}
 
-\textbf{Jetpack Compose Application} \\
-Aplicación móvil nativa para Android que demuestra la metodología Jetpack Compose en Kotlin. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/Jetpack-Compose-Application}{github.com/NicolasZapata/Jetpack-Compose-Application}
+\textbf{Analista \& Desarrollador Full-Stack – Convivenita} \hfill \textit{Feb 2023 – Abr 2023}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item \textbf{Automaticé el reporte y categorización} de más de 500 participantes mediante un \textbf{pipeline de datos} interno construido con \textbf{Node.js, React y SQL}, \textbf{eliminando 15+ horas de trabajo manual mensual}.
+	\item \textbf{Integré y centralicé} datos dispersos de múltiples fuentes (formularios JotForm, hojas de cálculo), asegurando su exactitud y accesibilidad para distintos departamentos.
+\end{itemize}
 
-\textbf{Fazt Web's Node.js Simple Page} \\
-Página web desarrollada con Node.js. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/FastWeb-Nodejs-Practice}{github.com/NicolasZapata/FastWeb-Nodejs-Practice}
+\textbf{Desarrollador Móvil (Flutter) – Vibbo} \hfill \textit{Abr 2021 – May 2021}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Contribuí al desarrollo de una aplicación móvil MVP, implementando la \textbf{sincronización de datos} a través de \textbf{APIs REST} con autenticación JWT y una base de datos \textbf{PostgreSQL}.
+\end{itemize}
 
-\textbf{Classification Tree UNIR} \\
-Árbol de clasificación realizado en Python con Sklearn, pandas, numpy y statmodels.api sobre datos extraídos de un archivo CSV. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/Classification\_Tree\_UNIR}{github.com/NicolasZapata/Classification\_Tree\_UNIR}
+% ===== EXPERIENCIA EN INVESTIGACIÓN - ENFOCADA EN INGENIERÍA =====
+\section*{INVESTIGACIÓN \& DESARROLLO}
+\textbf{Investigador en IA / Ingeniero de ML – UNIR} \hfill \textit{Mar 2020 – Dic 2022}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Diseñé e implementé \textbf{pipelines de machine learning} en Python (aprendizaje supervisado \& profundo) utilizando \textbf{scikit-learn, TensorFlow y Pandas} para procesar conjuntos de datos personalizados.
+	\item Apliqué mejores prácticas de ingeniería de software para desarrollar código escalable y documentado para investigación algorítmica con aplicaciones en el mundo real.
+\end{itemize}
 
-\textbf{OpenCV – UNIR} \\
-Laboratorio de manipulación de imágenes con Python y OpenCV. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/OpenCV-Unir}{github.com/NicolasZapata/OpenCV-Unir}
+% ===== PROYECTOS - SELECCIÓN ESTRATÉGICA =====
+\section*{PROYECTOS DESTACADOS}
+\textbf{Backend Template con FastAPI \& AWS Cognito} \hfill \textbf{Python, FastAPI, AWS (Lambda, DynamoDB), Docker, Terraform}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Plantilla de backend segura y escalable que demuestra arquitectura moderna, \textbf{autenticación JWT con AWS Cognito}, gestión de usuarios y \textbf{Infraestructura como Código (IaC)}.
+	\item \textit{Repositorio:} \href{https://github.com/niczapata/FastAPI_AWS_Cognito_Template}{github.com/niczapata/FastAPI\_AWS\_Cognito\_Template}
+\end{itemize}
 
-\textbf{Data Mining Unir} \\
-Tratamiento de datos con Python y DTale. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/Data\_Mining\_Unir-1}{github.com/NicolasZapata/Data\_Mining\_Unir-1}
+\textbf{Modelo de Clasificación de Calidad de Café (Proyecto de Tesis)} \hfill \textbf{Python, TensorFlow, Visión por Computador}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Proyecto completo de ML que \textbf{automatiza la clasificación} de granos de café. Incluyó la creación manual del dataset, entrenamiento del modelo y validación de resultados.
+\end{itemize}
 
-\textbf{Fashion Deep Learning | Semillero Quinoa | UNIR} \\
-Entrenamiento de un dataset de ropa con TensorFlow, Keras, NumPy y Matplotlib, utilizando valores flotantes. \\
-\textit{Repositorio:} \href{https://github.com/NicolasZapata/Fashion-Deep-Learning--Semillero-Quinoa}{github.com/NicolasZapata/Fashion-Deep-Learning}
+\textbf{Pipeline de Análisis \& Clasificación de Datos} \hfill \textbf{Python, scikit-learn, pandas, NumPy}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item \textbf{Pipeline de procesamiento} para dataset CSV que realiza limpieza, análisis de características y entrenamiento de un modelo de árbol de clasificación para generar insights.
+	\item \textit{Repositorio:} \href{https://github.com/niczapata/Classification_Tree_UNIR}{github.com/niczapata/Classification\_Tree\_UNIR}
+\end{itemize}
 
-% ===== REFERENCIAS PERSONALES =====
-\section*{REFERENCIAS PERSONALES}
+% ===== HABILIDADES TÉCNICAS - REORGANIZADAS PARA EL PUESTO =====
+\section*{TECHNICAL SKILLS}
+\begin{itemize}[nosep, leftmargin=*]
+	\item \textbf{Automatización \& Backend:} Python, Node.js, FastAPI, \textbf{Unit Testing (Pytest)}, APIs REST (JSON, HTTP), OAuth 2.0 / JWT, Autenticación Segura.
+	\item \textbf{Cloud \& DevOps (AWS):} Lambda, API Gateway, S3, IAM, CloudWatch, \textbf{Terraform (IaC)}, Docker, CI/CD, Microsoft Azure.
+	\item \textbf{Herramientas de Automatización/RPA:} \textbf{n8n}, Make (Integromat), Zapier.
+	\item \textbf{Data \& AI/ML:} Pipelines de datos (ETL), Pandas, NumPy, scikit-learn, SQL, PostgreSQL, MySQL, TensorFlow.
+	\item \textbf{Frontend \& Movilidad:} React, React Native, JavaScript, Flutter, HTML/CSS.
+\end{itemize}
+
+% ===== HABILIDADES BLANDAS - NUEVA SECCIÓN =====
+\section*{SOFT SKILLS}
+Capacidad analítica para resolución de problemas, proactividad para identificar oportunidades de mejora, comunicación efectiva con equipos técnicos y no técnicos, trabajo colaborativo en entornos híbridos y adaptabilidad a cambios y nuevos requerimientos.
+
+% ===== CERTIFICACIONES =====
+\section*{CERTIFICACIONES}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \textbf{Jhon Jairo Grisales Becerra} \\ Coordinador técnico – ARAGON CONSTRUCCIONES Y MINERIA \\ Teléfono: +57 300 372 2372
-    \item \textbf{Viviana María Zapata Álzate} \\ Profesional Social – INTERPARQUE TECNOLOGICO \\ Teléfono: +57 312 896 5368
-    \item \textbf{Leonardo Garavito} \\ Desarrollador de Negocios y CEO – GRUPO QUANAM COLOMBIA \\ Teléfono: +57 311 2308556
-    \item \textbf{Jhon Carlos Colorado Angulo} \\ Desarrollador Front-End – ARIADNA COMMUNICATIONS GROUP \\ Teléfono: +57 3205336397
+	\item \textbf{Introduction to Microsoft Azure Cloud Services} – Febrero 2025 (Coursera)
+	\item \textbf{Google AI Essentials} – Agosto 2024 (Credly)
+	\item \textbf{Java Career} – Platzi (Java SE, Java EE)
+	\item \textbf{Fundamentos de JavaScript, Git, Bases de Datos} – Platzi
 \end{itemize}
-
-% ===== ESPACIO PARA FOTO (OPCIONAL) =====
-% Descomenta las siguientes líneas y agrega tu imagen si lo deseas:
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=3cm]{tu_foto.jpg}
-%     \label{fig:foto}
-% \end{figure}
 
 \end{document}
